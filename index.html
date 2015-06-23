@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>	
+	<head>
+		<meta charset="utf-8">
+
+		<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="lib/bootstrap/css/bootstrap-theme.min.css">
+		<script type="text/javascript" src="lib/jquery-1.11.3.js"></script>
+		<script type="text/javascript" src="lib/bootstrap/js/bootstrap.min.js"></script>
+
+
+		<link rel="stylesheet" href="css/todolist.css">
+		<script type="text/javascript" src="js/todolist.js"></script>
+		
+		<title class="head">Productivity: Plan & Track</title>
+	</head>
+
+	<body>
+		<header class="page-header">
+			<div class="content">
+
+				<h1 class="head"> Plan for success, and your future is <span class="italic">limitless.</span></h1>
+				<nav>
+		          <ul class='nav nav-tabs'>
+		            <li role='presentation' class='active' id='plan'><a href='#'>Planner</a></li>
+		            <li role='presentation'id='track'><a href='#'>Tracker</a></li>
+		          </ul>
+		        </nav>
+		    </div>
+		    <div class="background-image"></div>    
+	    </header>  	
+
+		<main>   
+		 		
+			<section class="plan">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-8" id="dotoday">	
+						<h2 class="head">Today</h2>
+						<ul id="today">
+						</ul>
+					</div>
+
+					<div class="col-md-4" id="todo">
+						<h3 class="head">I need to</h3>
+						<div>    
+							<form action="index.html" method="post">
+							    <fieldset>
+							        <div class="form-group">
+							            <input autofocus class="form-control" id="inputfield" placeholder="Add something to your list" type="text"/>
+							        </div>
+							    </fieldset>
+							</form>
+						</div>	
+						<ul id="list">
+						</ul>	
+					</div>	
+				</div>	
+			</div>
+			</section>
+			
+			<section class="track">
+			<div class="container-fluid">
+				<div class="row" id="done">
+					<div class='col-md-3'><h4>Friday,  June 19, 2015</h4><ul id=''><li>groceries</li><li>carwash</li><li>mow lawn</li></ul></div>
+					<div class='col-md-3'><h4>Thursday, June 18, 2015</h4><ul id=''><li>groceries</li><li>carwash</li><li>mow lawn</li></ul></div>
+					<div class='col-md-3'><h4>Wednesday, June 17, 2015</h4><ul id=''><li>groceries</li><li>carwash</li><li>mow lawn</li></ul></div>
+					<div class='col-md-3'><h4>Tuesday, June 16, 2015</h4><ul id=''><li>groceries</li><li>carwash</li><li>mow lawn</li></ul></div>
+					<div class='col-md-3'><h4>Monday, June 15, 2015</h4><ul id=''><li>groceries</li><li>carwash</li><li>mow lawn</li></ul></div>
+					<div class='col-md-3'><h4>Sunday, June 14, 2015</h4><ul id=''><li>groceries</li><li>carwash</li><li>mow lawn</li></ul></div>
+					<div class='col-md-3'><h4>Saturday, June 13, 2015</h4><ul id=''><li>groceries</li><li>carwash</li><li>mow lawn</li></ul></div>
+					<div class='col-md-3'><h4>Friday, June 12, 2015</h4><ul id=''><li>groceries</li><li>carwash</li><li>mow lawn</li></ul></div>
+						
+				</div>
+			</div>
+			</section>			
+
+						
+		</main>	
+
+	</body>	
+</html>
+

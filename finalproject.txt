@@ -1,0 +1,9 @@
+to do list
+
+-single screen with tabs for today, this week, this month
+	-option to view all 3 at once with screen re-size thing I found and bookmarked online
+-create user login
+	-link to calendars
+-add date things are completed field.  productivity log - view this week's accomplishments - celebrate!  
+-add menu to top for today/thisweek/this month	
+-repeat feature: repeat monthly, weekly, daily dropdown menu

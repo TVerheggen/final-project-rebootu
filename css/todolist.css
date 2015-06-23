@@ -1,0 +1,195 @@
+@font-face {
+  font-family: QUMPELLKANO12;
+  src: url(Qumpellkano12.otf);
+}
+
+@font-face {
+	font-family: ostrich-light;
+	src: url(ostrich-light.ttf);
+
+}
+
+@font-face {
+	font-family: ostrich-regular;
+	src: url(fonts/ostrich-regular.ttf);
+
+}
+
+@font-face {
+	font-family: ostrich-black;
+	src: url(fonts/ostrich-black.ttf);
+
+}
+
+@font-face {
+  font-family: champion;
+  src: url(underwood_champion.ttf);
+}
+
+/*.background-image {
+	filter: blur(3px);
+	-webkit-filter: blur(3px);
+  	-moz-filter: blur(3px);
+  	-o-filter: blur(3px);
+  	-ms-filter: blur(3px);
+}*/
+
+header {
+	background-image: url("header.jpg");
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	height: 93px;
+	width: 807px;
+	position: fixed;
+	top: 0;
+	margin: 0;
+	padding: 0;
+
+}	
+
+.page-header {
+	margin: 0;
+
+}
+
+span.italic {
+	font-style: italic;
+
+}
+
+input {
+	max-width: 50%;
+	float: left;
+	display: inline-block;
+	margin: 15px;
+	font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+
+}
+
+
+*.head {
+	font-family: ostrich-regular;
+	font-size: 300%;
+	color: rgb(0, 41, 122);
+	font-weight: 900;
+	text-shadow: 2px 2px rgb(255, 255, 255);
+
+}
+
+h1.head {
+	text-align: center;	
+	font-size: 350%;
+	font-weight: 900;
+	margin-top: 35px;
+}
+
+main {
+  	padding-top: 18.75em; 
+ 
+
+}
+
+body {
+	background-image: url("paper2.jpg");
+  	webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+
+}
+
+
+col-md-8#dotoday {
+	float: center;
+
+}
+
+
+h2.head{
+	text-align: center;
+	
+}
+
+h3.head {
+	text-align: left;	
+
+}
+
+ul {
+	list-style-type: none;
+
+}
+
+.nav li {	
+	display: inline;
+
+
+
+.nav {
+	text-align: center;
+	font-size: 200%;
+	font-family: ostrich-regular;	
+	color: rgb(0, 41, 122);
+
+}
+
+
+li {
+  display: block;
+  margin: .5em; /*3px*/
+
+}
+
+
+#list {
+	float: left;
+
+}
+
+#todo {
+	float: left;
+
+}
+
+#todo.h2{
+	float: left;
+
+}
+
+.text {
+	text-align: left;
+
+}
+
+/*.col-md-3 {
+	background-color: rgba(163, 200, 237, .7);
+
+}*/
+
+button {
+	text-align: right;
+
+}
+
+
+
+.col-md-3.h4 {
+	font-weight: bold;
+
+}
+
+ /*** 
+** RESPONSIVENE LAYOUT 
+***/
+
+@media screen and (max-width: 1000px) {
+    #todo {
+    	
+
+    }
+}
+
+        

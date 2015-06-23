@@ -1,0 +1,15 @@
+how to keep the italics from happening when I mouse over the whole line vs just the text - this may also apply to how do i make the text red vs the urgent button
+how to make the items toggle between lists
+
+how to drop the urgent button from the completed list
+		
+
+
+
+
+must use bootstrap container and uses the grid system: drop in some container elements using bootstrap to design and size
+
+
+
+put your top-level items in place: the form and input, the container where your items go, and headers titles, etc
+
